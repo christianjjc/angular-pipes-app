@@ -38,8 +38,9 @@ export class MenuBarComponent {
         icon: Pi.COG,
         items: [
           {
-            label: 'Otro Elemento',
+            label: 'Custom-pipes',
             icon: Pi.FACE_SMILE,
+            routerLink: 'custom',
           },
         ],
       },
