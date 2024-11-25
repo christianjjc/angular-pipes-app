@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './basics-page.component.html',
   styleUrl: './basics-page.component.css',
 })
-export class BasicsPageComponent {}
+export class BasicsPageComponent {
+  public nameLower: string = 'christian';
+  public nameUpper: string = 'CHRISTIAN';
+  public fullName: string = 'ChRiStIaN JImeNeZ';
+}

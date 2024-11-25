@@ -1,21 +1,19 @@
 import { NgModule } from '@angular/core';
-import { MenuModule } from 'primeng/menu';
+import { ButtonModule } from 'primeng/button';
+import { CardModule } from 'primeng/card';
+import { FieldsetModule } from 'primeng/fieldset';
 import { MenubarModule } from 'primeng/menubar';
-// import { BadgeModule } from 'primeng/badge';
-// import { AvatarModule } from 'primeng/avatar';
-// import { InputTextModule } from 'primeng/inputtext';
-// import { RippleModule } from 'primeng/ripple';
+import { PanelModule } from 'primeng/panel';
 
 @NgModule({
   declarations: [],
   imports: [],
   exports: [
-    MenuModule,
     MenubarModule,
-    // BadgeModule,
-    // AvatarModule,
-    // InputTextModule,
-    // RippleModule,
+    ButtonModule,
+    CardModule,
+    FieldsetModule,
+    PanelModule,
   ],
 })
 export class PrimeNgModule {}
