@@ -4,10 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-basics-page',
   standalone: false,
   templateUrl: './basics-page.component.html',
-  styleUrl: './basics-page.component.css',
+  styleUrls: ['./basics-page.component.css'],
 })
 export class BasicsPageComponent {
   public nameLower: string = 'christian';
   public nameUpper: string = 'CHRISTIAN';
   public fullName: string = 'ChRiStIaN JImeNeZ';
+
+  public customDate: Date = new Date();
 }

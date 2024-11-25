@@ -12,6 +12,6 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
     NumbersPageComponent,
     UncommonPageComponent,
   ],
-  imports: [CommonModule, ProductsRoutingModule, PrimeNgModule],
+  imports: [CommonModule, PrimeNgModule, ProductsRoutingModule],
 })
 export class ProductsModule {}
